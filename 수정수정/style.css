@@ -1,0 +1,55 @@
+/* body {
+    height: auto;
+    width: 100wh;
+    background-image: url('image/3.png'), url('image/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.navbar-brand {
+    font-family: 'NanumBarunGothicBold';
+    font-size: 25px;
+
+}
+
+.bg {
+    position: relative;
+    background-image: url(image/2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.bg .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    font-family: 'NanumBarunGothicBold';
+}
+
+.service {
+    font-size: 3rem;
+}
+
+#nav-scroll {
+    background-color: white;
+}
+
+/* red-blood를 사용했더니 셍각보다 너무 
+답답해보임. 차라리 흰색배경이 나을듯해보임 */
+
+ul>li a {
+    font-family: 'NanumBarunGothic';
+}
